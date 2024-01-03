@@ -44,7 +44,7 @@ export function InfoCard(props) {
                     <div className='bg-[#000000] p-2 rounded-full  transition-colors duration-200 dark:bg-[#000000] dark:hover:bg-white hover:bg-white'>
                         <Link href='/about'><GlobeAlt className={'w-6 h-6'} /></Link>
                     </div>
-                    <div className='bg-[#000000 p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-[#000000] dark:hover:bg-white hover:bg-white'>
+                    <div className='bg-[#000000] p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-[#000000] dark:hover:bg-white hover:bg-white'>
                         <Link href={siteConfig('HEO_INFO_CARD_URL', null, CONFIG)}><i className='fab fa-github text-xl' />
                         </Link>
                     </div>
@@ -78,7 +78,7 @@ function GreetingsWords() {
  */
 function MoreButton() {
   return <Link href='/about'>
-        <div className={'group bg-[#000000] dark:bg-[#000000 hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
+        <div className={'group bg-[#000000] dark:bg-[#000000] hover:bg-white dark:hover:bg-white hover:text-black dark:hover:text-black flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
             <ArrowRightCircle className={'group-hover:stroke-black dark:group-hover:stroke-black w-6 h-6 transition-all duration-100'} />
             <div className='font-bold'>Discover</div>
         </div>
