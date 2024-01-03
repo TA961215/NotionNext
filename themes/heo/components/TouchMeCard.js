@@ -13,10 +13,10 @@ export default function TouchMeCard() {
     return <></>
   }
   return (
-        <div className={'relative h-28 text-white flex flex-col'}>
+        <div className={'relative h-28 text-black flex flex-col'}>
 
             <FlipCard
-                className='cursor-pointer lg:p-6 p-4 border rounded-xl bg-[#4f65f0] dark:bg-yellow-600 dark:border-gray-600'
+                className='cursor-pointer lg:p-6 p-4 border rounded-xl bg-[#eeecfc] dark:bg-[#ffffff] dark:border-green-400'
                 frontContent={
                     <div className='h-full'>
                         <h2 className='font-[1000] text-3xl'>{siteConfig('HEO_SOCIAL_CARD_TITLE_1', null, CONFIG)}</h2>
