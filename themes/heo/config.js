@@ -1,21 +1,25 @@
 const CONFIG = {
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2024-01-01', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: 'Welcome欢迎你的到来', url: 'https://blog.tangly1024.com' },
-    { title: '希望你在这里度过愉快而充实的时光', url: 'https://docs.tangly1024.com' }
+    { title: 'Welcome欢迎你的到来🎯', url: 'https://like.liyong.online' },
+    { title: '希望你的每一天都开心快乐❤️', url: 'https://like.liyong.online' },
+    { title: '昨天是段历史❤️', url: 'https://like.liyong.online' },
+    { title: '明天是个谜团❤️', url: 'https://like.liyong.online' },
+    { title: '而今天是天赐的礼物❤️', url: 'https://like.liyong.online' },
+    { title: '要像珍惜礼物那样珍惜今天❤️', url: 'https://like.liyong.online' }
   ],
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_1: 'Serendipity',
+  HEO_HERO_TITLE_2: '❤️',
+  HEO_HERO_TITLE_3: '“Hello,World”',
+  HEO_HERO_TITLE_4: 'Lbz',
+  HEO_HERO_TITLE_5: '热爱生活，知足常乐',
+  HEO_HERO_TITLE_LINK: 'https://www.bilibili.com/',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
@@ -29,15 +33,13 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '热爱生活，知足常乐',
+    '昨天是段历史❤️',
+    '明天是个谜团❤️',
+    '而今天是天赐的礼物❤️',
+    '要像珍惜礼物那样珍惜今天❤️',
   ],
-  HEO_INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
+  HEO_INFO_CARD_URL: 'https://github.com/TA961215', // 个人资料底部按钮链接
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
@@ -100,10 +102,10 @@ const CONFIG = {
   ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_1: '交流频道',
-  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  HEO_SOCIAL_CARD_TITLE_1: 'About me',
+  HEO_SOCIAL_CARD_TITLE_2: 'Thanks for reading',
+  HEO_SOCIAL_CARD_TITLE_3: '🔴🟡🟢点击发现更多 Thanks for reading',
+  HEO_SOCIAL_CARD_URL: 'https://playphrase.me/',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
