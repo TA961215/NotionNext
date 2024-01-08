@@ -14,7 +14,7 @@ const CONFIG = {
   ],
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: 'Serendipity',
+  HEO_HERO_TITLE_1: 'Today',
   HEO_HERO_TITLE_2: '❤️',
   HEO_HERO_TITLE_3: '“Hello,World”',
   HEO_HERO_TITLE_4: 'Lbz',
