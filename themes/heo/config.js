@@ -13,6 +13,11 @@ const CONFIG = {
     { title: '要像珍惜礼物那样珍惜今天❤️', url: 'https://like.liyong.online' }
   ],
 
+  // 英雄区左右侧组件颠倒位置
+  HEO_HERO_REVERSE: false,
+  // 博客主体区左右侧组件颠倒位置
+  HEO_HERO_BODY_REVERSE: false,
+
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: 'Today',
   HEO_HERO_TITLE_2: '❤️',
